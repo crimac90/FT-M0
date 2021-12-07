@@ -203,7 +203,7 @@ function breakStatement(numero) {
   for(var i=0; i<10; i++) { if(suma===i) break 
     suma=suma+2; arrayaumentandoen2.push(suma)
   }
-  if(i<10) return "Se interrumpió la ejecución"
+  if(i<9) return "Se interrumpió la ejecución"
   return arrayaumentandoen2
 }
 
@@ -217,7 +217,7 @@ function continueStatement(numero) {
   // Tu código:
   var arrayaumentandoen2=[]
   var suma=numero
-  for(var i=0; i<10; i++) { if(i===5) continue 
+  for(var i=0; i<10; i++) { if(i===4) continue 
     suma=suma+2; arrayaumentandoen2.push(suma)
   }
   return arrayaumentandoen2
